@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="400dp"
+	android:layout_height="400dp"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="#FF404145">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:typeface="monospace"
+		android:textSize="25sp"
+		android:text="Menu Choices"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+		android:text="Creat New"
+		android:id="@+id/cre_id"
+        
+		android:background="@drawable/btn_confirm"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+        android:text="Remove"
+		android:id="@+id/rem_id"
+		android:background="@drawable/btn_confirm"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+		android:text="Remove all"
+		android:id="@+id/rem_al"
+		android:background="@drawable/btn_confirm"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+		android:text="Edit FlashCard"
+		android:id="@+id/confirmedt"
+		android:background="@drawable/btn_confirm"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Auto Run"
+        android:id="@+id/auto_id"
+        android:background="@drawable/btn_confirm"/>
+    
+</LinearLayout>
+

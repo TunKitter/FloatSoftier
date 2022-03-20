@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#FF505155">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="300dp"
+		android:weightSum="2"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/main_r"
+			android:text="Demo"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:textStyle="bold"
+			android:textSize="30sp"/>
+
+		<TextView
+			android:text="Demo"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:id="@+id/main_d"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:textStyle="bold"
+			android:textSize="30sp"/>
+
+	</LinearLayout>
+
+	<ProgressBar
+		android:layout_width="match_parent"
+        
+        android:id="@+id/pro_id"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_height="wrap_content"/>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="10dp"/>
+
+	<ListView
+		android:background="#FFFFFFFF"
+		android:id="@+id/lsview"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:divider="#FF505155"
+		android:colorBackground="#00e788"
+		android:dividerHeight="10dp"/>
+
+</LinearLayout>
+

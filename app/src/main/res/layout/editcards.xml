@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="300dp"
+	android:layout_height="300dp"
+	android:orientation="vertical"
+	android:background="#FF404145"
+	android:gravity="center">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Edit FlashCard"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:gravity="center"
+		android:typeface="monospace"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:hint="Enter Root Word :"
+		android:id="@+id/edit_word_id"
+		android:singleLine="true"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:hint="Enter Define Word"
+		android:id="@+id/edit_define_id"
+		android:singleLine="true"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Confirm"
+		android:layout_width="202dp"
+		android:background="@drawable/btn_confirm"
+		android:textSize="24sp"
+		android:textAllCaps="false"
+		android:fontFamily="cursive"
+		android:textColor="#32987E"
+		android:id="@+id/btn_confirm_ed_id"/>
+
+</LinearLayout>
+

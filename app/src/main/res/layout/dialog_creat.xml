@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="300dp"
+	android:layout_height="300dp"
+	android:orientation="vertical"
+	
+	android:gravity="center">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="Creat Flash"
+		android:textSize="25sp"
+		android:typeface="monospace"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:hint="Input Root"
+		android:id="@+id/root_edt"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:inputType="textMultiLine"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="Input Define"
+		android:id="@+id/def_edt"/>
+
+	<Button
+		android:id="@+id/button_check"
+		android:layout_width="202dp"
+		android:background="@drawable/btn_confirm"
+		android:textSize="24sp"
+		android:textAllCaps="false"
+		android:fontFamily="cursive"
+		android:textColor="#32987E"
+		android:layout_height="wrap_content"
+		android:text="Add"/>
+
+</LinearLayout>
+
